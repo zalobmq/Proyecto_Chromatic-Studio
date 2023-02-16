@@ -1,0 +1,52 @@
+
+.blanco_negro:hover{
+    background-image: url("../img/1_BN.jpg");
+}
+
+.fnd-head{
+    background-color: #414141;
+}
+.ico-head{
+    width: 4vh;
+    height: 4vh;
+    margin: 1vh;
+}
+.link-head{
+    color: #bebebe;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 1vh;
+}
+
+/* Cambio de imagen */
+.imagen-BN {
+
+    background-image: url('../img/3_BN.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+padding: 200px;
+  }
+
+.imagen-BN:hover {
+
+    background-image: url('../img/3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+
+
+  }
+/* GLASS */
+.glass-img{
+    /* From https://css.glass */
+background: rgba(255, 255, 255, 0.075);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.103);
+backdrop-filter: blur(4px);
+-webkit-backdrop-filter: blur(4px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.seccion-2{
+    margin-top: 20vh;
+}
