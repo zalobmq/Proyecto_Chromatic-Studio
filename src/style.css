@@ -18,7 +18,9 @@
   font-weight: bold;
   margin: 1vh;
 }
-
+.link-head:hover{
+color: whitesmoke;
+} 
 /* Cambio de imagen */
 .imagen-BN {
 
@@ -42,25 +44,10 @@
 width: 20vh;
 height: 20vh;
 }
-/* .imagen-2{
 
-  background-image: url('../img/6-BN.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  color: white;
-  width: 500px;
-  height: 500px;
+.text-justify{
+  text-align: justify;
 }
-
-.imagen-2:hover {
-
-  background-image: url('../img/6.jpg');
-  background-repeat: no-repeat;
-  background-size: ;
-  color: white;
-
-
-} */
 
 /*  */
 .about-style {
@@ -97,7 +84,7 @@ height: 20vh;
 }
 
 .custom-shape-divider-top-1676632145 .shape-fill {
-  fill: #BEBEBE;
+  fill: whitesmoke;
 }
 
 /*  SCROLL BAR */
@@ -122,5 +109,5 @@ height: 20vh;
 }
 /* FOOTER */
 .back-footer{
-  background-color: #999;
+  background-color: #cccccc;
 }
