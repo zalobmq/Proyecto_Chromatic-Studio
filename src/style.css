@@ -108,13 +108,13 @@ height: 20vh;
 }
 
 ::-webkit-scrollbar-track {
-  background: #414141;
+  background: #41414100;
   border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb {
   border-radius: 10px;
-  background: #ccc;
+  background: #cccccc;
 }
 
 ::-webkit-scrollbar-thumb:hover {
