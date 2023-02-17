@@ -2,63 +2,110 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Interactiva 2</title>
-    <link href="style.css" rel="stylesheet" type="text/css">
-    <link rel="shortcut icon" href="img/pato.gif">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Web Interactiva 2</title>
+  <link href="style.css" rel="stylesheet" type="text/css">
+
+  <link rel="shortcut icon" href="img/pato.gif">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
 </head>
 
 <body class="bg-dark">
-    <header class="site-header sticky-top py-1 bg-dark ">
 
-        <nav class="container d-flex flex-column flex-md-row justify-content-between ">
-            <a href="#" aria-label="Product">
-                <img src="../img/circulo-de-color.png" class="ico-head">
-            </a>
-            <a>
+  <!-- HEADER -->
+  <header class="container">
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <div class="container-fluid">
+        <a href="#" aria-label="Product">
+          <img src="../img/circulo-de-color.png" class="ico-head">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-5">
+            <li class="nav-item me-4">
+              <a class="py-2 d-none d-md-inline-block link-head" href="#">Home</a>
+            </li>
+            <li class="nav-item me-4">
+              <a class="py-2 d-none d-md-inline-block link-head" href="#About_us">About us</a>
+            </li>
 
-            </a>
-            <a class="py-2 d-none d-md-inline-block link-head" href="#">Home</a>
-            <a class="py-2 d-none d-md-inline-block link-head" href="#About_us">About us</a>
-            <a class="py-2 d-none d-md-inline-block link-head" href="#">Galery</a>
-            <a class="py-2 d-none d-md-inline-block link-head" href="#">Contact</a>
-        </nav>
-    </header>
+            <li class="nav-item me-4">
+              <a class="py-2 d-none d-md-inline-block link-head" href="#">Galery</a>
+            </li>
 
-    
-    <div class="text-center imagen-BN m">
-        <div class="col-md-5 p-lg-5 mx-auto my-5 glass-img">
-            <h1 class="display-4 fw-normal ">Chromatic Studio</h1>
-            <p class="lead fw-normal">Da color a tus recuerdos</p>
+            <li class="nav-item">
+              <a class="py-2 d-none d-md-inline-block link-head" href="#">Contact</a>
+            </li>
+
+          </ul>
+
         </div>
-        <div class="product-device shadow-sm d-none d-md-block"></div>
-        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+      </div>
+    </nav>
+  </header>
+
+<!-- HOME -->
+  <div class="text-center imagen-BN m">
+    <div class="col-md-5 p-lg-5 mx-auto my-5 glass-img">
+      <h1 class="display-4 fw-normal ">Chromatic Studio</h1>
+      <p class="lead fw-normal">Da color a tus recuerdos</p>
     </div>
-    
-    <div class="seccion-2">
-        <div class=" px-4 text-center">
-            <div class="row gx-5">
-              <div class="col">
-               
-              </div>
-              <div class="col bg-light text-dark rounded-start-1">
-                <div class="p-3">
-                    <h2 id="About_us">ABOUT AS</h2>
-                </div>
-              </div>
-            </div>
+   
+  </div>
+<!-- DIVIDER -->
+  <div class="custom-shape-divider-top-1676632145">
+    <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+      <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+    </svg>
+  </div>
+<!-- ABOUT US -->
+  <div class="col-md-5 p-lg-5 mx-auto my-5 ">
+    <div class="card mb-3" style="max-width: 800px;">
+      <div class="row g-0">
+        <div class="col-md-6">
+          <img src="../img/6.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-6">
+          <div class="card-body">
+            <h2 id="About_us" class="card-title text-center mt-2 mb-4">About us</h2>
+            <p class="card-text text-center">Nuestra empresa se dedica a ofrecer un servicio de transformación de fotografías en blanco y negro a color. Con nuestra tecnología de última generación, podemos restaurar y colorear imágenes antiguas, dándoles vida y un toque moderno.</p>
           </div>
+        </div>
+      </div>
     </div>
+  </div>
 
+<!-- GALERY -->
 
+<!-- CONTACT -->
+<!--  -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+<div class="back-footer">
+  <div class="container">
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <p class="col-md-4 mb-0 text-muted">© 2023 GONZALO_BMQ</p>
+  
+      <a href="#" class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
+        <img src="../img/circulo-de-color.png" class="ico-head">
+      </a>
+  
+      <ul class="nav col-md-4 justify-content-end">
+        <li class="nav-item"><a href="https://github.com/zalobmq" class="nav-link px-2 text-muted">
+          <img src="../img/github.png" class="ico-head">
+        </a></li>
+      </ul>
+    </footer>
+  </div>
+</div>
+
+  <script src="main.js"></script>
 </body>
 
 </html>
